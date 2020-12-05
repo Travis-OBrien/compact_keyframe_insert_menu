@@ -1,6 +1,3 @@
-from typing import *
-
-
 bl_info = {
     "name": "Compact keyframe insert menu",
     "category": "Animation",
@@ -12,6 +9,7 @@ bl_info = {
     "tracker_url": "https://github.com/xbodya13/compact_keyframe_insert_menu/issues"
 }
 
+from typing import *
 import bpy
 
 
@@ -507,6 +505,7 @@ def register():
     # os.system('cls')
     # print("I AM REGISTER")
 
+    print("Compact Keyframe Insert Menu REGISTER")
 
     for register_class in register_classes:
         bpy.utils.register_class(register_class)
